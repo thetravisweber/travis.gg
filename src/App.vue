@@ -43,7 +43,9 @@ https://coolors.co/8ecae6-219ebc-023047-ffb703-fb8500
 }
 
 body {
-  background-color: var(--primary)
+  background-color: var(--primary);
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
