@@ -7,6 +7,21 @@
 </template>
 
 <style>
+
+/* 
+COLOR SCHEME
+
+https://coolors.co/8ecae6-219ebc-023047-ffb703-fb8500
+
+Little Blue:        #8ecae6
+Medium Blue:        #219ebc
+Dark Blue:          #023047
+Yellow Orange:      #ffb703
+Orange Orange:      #fb8500
+
+*/
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -30,6 +45,6 @@ body {
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #facf5a;;
 }
 </style>
