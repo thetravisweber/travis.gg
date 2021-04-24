@@ -1,10 +1,19 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Profile</router-link> |
-    <router-link to="/work">My Work</router-link>
-  </div>
+  <MyHeader />
   <router-view />
 </template>
+
+
+<script>
+// @ is an alias to /src
+import MyHeader from "@/components/MyHeader.vue";
+
+export default {
+  components: {
+    MyHeader,
+  },
+};
+</script>
 
 <style>
 
@@ -38,25 +47,32 @@ h2 {
   color: #000000;
 }
 
+h4 {
+  color: #000000;
+  text-decoration: underline;
+}
+
 img {
   color: #ffb703;
 
   box-shadow: 10px 10px currentColor;
 }
 
-
-
 #nav {
   padding: 30px;
 }
 
+a {
+  color: #023047;
+}
+
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #8ecae6;
 }
 
 #nav a.router-link-exact-active {
-  color: #facf5a;;
+  color: #023047;;
 }
 
 .center {
@@ -64,6 +80,5 @@ img {
   width: 50%;
   padding: 10px;
 }
-
 
 </style>
