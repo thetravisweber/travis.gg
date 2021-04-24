@@ -9,6 +9,8 @@
 <style>
 
 #nav {
+  width: 100%;
+  background-color: var(--secondary);
   padding: 30px;
 }
 #nav a {
@@ -17,7 +19,7 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #023047;;
+  color: var(--dark-primary);;
 }
 
 </style>

@@ -30,13 +30,13 @@ export default {
   min-height: 400px;
   border-width: 0 8px 0 8px; /* top right bottom left */
   border-style: solid double;
-  border-color: #ffb703;
+  border-color: var(--light-secondary);
 }
 
 .work-description {
   text-align: left;
   text-indent: 25px;
-  color: #000000;
+  color: var(--black);
 }
 
 
