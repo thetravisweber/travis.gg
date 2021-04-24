@@ -71,7 +71,7 @@ a {
 
 #nav a {
   font-weight: bold;
-  color: #8ecae6;
+  color: var(--light-primary);
 }
 
 #nav a.router-link-exact-active {
