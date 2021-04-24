@@ -1,6 +1,10 @@
 <template>
   <div class="home">
+
+    <h2>Hello, I am Travis</h2>
+
     <TravisBio />
+    
     <div class="center">
       <travis-socials />
     </div>
@@ -20,11 +24,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-</style>

@@ -35,6 +35,18 @@ body {
   background-color:#219ebc;
 }
 
+h2 {
+  color: #000000;
+}
+
+img {
+  color: #ffb703;
+
+  box-shadow: 10px 10px currentColor;
+}
+
+
+
 #nav {
   padding: 30px;
 }
@@ -53,4 +65,6 @@ body {
   width: 50%;
   padding: 10px;
 }
+
+
 </style>

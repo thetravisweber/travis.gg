@@ -1,6 +1,4 @@
 <template>
-  <h2>Hello, I am Travis</h2>
-
   <img src="@/../public/images/profile.png" height="400" />
 
   <div class="bio">
@@ -19,34 +17,9 @@
     </p>
     <p> I have 4 friends, 1 Dog, and 1 girlfriend. </p>
   </div>
-
-  <div class="center">
-    <!-- <star-rating
-      class="star-center .center"
-      rating="4.83"
-      increment="0.01"
-      readonly="true"
-    ></star-rating>
-    <p class="disclaimer">(results based on 2021 study)</p> -->
-  </div>
 </template>
 
 <style scoped>
-h2 {
-  color: #000000;
-}
-
-img {
-  color: #ffb703;
-
-  box-shadow: 10px 10px currentColor;
-}
-
-.star-center {
-  width: 70%;
-  margin: auto;
-  padding: 10px 10px 0px 10px;
-}
 
 .bio {
   margin: auto;
@@ -58,7 +31,4 @@ img {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-.disclaimer {
-  padding-top: 0;
-}
 </style>
