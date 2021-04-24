@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <p>hello world</p>
     <TravisBio />
   </div>
 </template>

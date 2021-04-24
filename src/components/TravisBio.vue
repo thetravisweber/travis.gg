@@ -1,7 +1,7 @@
 <template>
   <h2>Hello, I am Travis</h2>
 
-  <img src="public/images/profile.png" height="400" />
+  <img src="@/../public/images/profile.png" height="400" />
 
   <div class="bio">
     <p>
