@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import TravisSocials from "./TravisSocials.vue";
+import TravisSocials from "@/components/TravisSocials.vue";
 
 export default {
   components: {

@@ -1,12 +1,15 @@
 <template>
   <div class="socials">
-    <social-link icon="twitter" link="https://twitter.com/travis_weber_" />
+    <social-link 
+      iconLink="https://img.icons8.com/material/48/000000/twitter--v1.png" 
+      link="https://twitter.com/travis_weber_" 
+      />
     <social-link
-      icon="instagram"
+      iconLink="https://img.icons8.com/ios-filled/48/000000/instagram-new.png"
       link="https://www.instagram.com/travis__weber/"
     />
     <social-link
-      icon="youtube"
+      iconLink="https://img.icons8.com/ios-filled/50/000000/youtube.png"
       link="https://www.youtube.com/channel/UCJECUUnURjLq6QuetU5Mn1A"
     />
   </div>
