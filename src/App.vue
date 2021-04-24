@@ -28,7 +28,6 @@ Black:              #000000
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #023047;
-  margin-top: 60px;
 }
 
 body {

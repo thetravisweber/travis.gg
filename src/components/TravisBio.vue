@@ -13,9 +13,9 @@
     <p>
       I have been programming since I was 16 years old. For the last 2 years, I have been working
       almost exclusively in web development. Feel Free to check out some of 
-      <router-link to="/work">My Work</router-link>
+      <router-link to="/work">My Work</router-link>.
     </p>
-    <p> I have 4 friends, 1 Dog, and 1 girlfriend. </p>
+    <p> I have 4 friends, <router-link to="/dog">1 dog</router-link>, and 1 girlfriend. </p>
   </div>
 </template>
 
