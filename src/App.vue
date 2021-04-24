@@ -13,26 +13,26 @@ COLOR SCHEME
 
 https://coolors.co/8ecae6-219ebc-023047-ffb703-fb8500
 
-Little Blue:        #8ecae6
+Light Blue:         #8ecae6
 Medium Blue:        #219ebc
 Dark Blue:          #023047
 Yellow Orange:      #ffb703
 Orange Orange:      #fb8500
+Black:              #000000
 
 */
-
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #023047;
   margin-top: 60px;
 }
 
 body {
-  background-color:#4592af;
+  background-color:#219ebc;
 }
 
 #nav {
@@ -46,5 +46,11 @@ body {
 
 #nav a.router-link-exact-active {
   color: #facf5a;;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 </style>

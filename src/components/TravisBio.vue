@@ -6,8 +6,18 @@
   <div class="bio">
     <p>
       I am 21 year old American 🇺🇸 Software Developer currently living in
-      Scottsdale, Arizona. I have 4 friends, 1 Dog, and 1 girlfriend.
+      Scottsdale, Arizona. 
     </p>
+    <p>
+      I am currently attending Rio Salado Community College,
+      and hope to graduate from a state school with a degree in Mathematics.
+    </p>
+    <p>
+      I have been programming since I was 16 years old. For the last 2 years, I have been working
+      almost exclusively in web development. Feel Free to check out some of 
+      <router-link to="/work">My Work</router-link>
+    </p>
+    <p> I have 4 friends, 1 Dog, and 1 girlfriend. </p>
   </div>
 
   <div class="center">
@@ -19,21 +29,7 @@
     ></star-rating>
     <p class="disclaimer">(results based on 2021 study)</p> -->
   </div>
-
-  <div class="center">
-    <travis-socials />
-  </div>
 </template>
-
-<script>
-import TravisSocials from "@/components/TravisSocials.vue";
-
-export default {
-  components: {
-    TravisSocials,
-  },
-};
-</script>
 
 <style scoped>
 h2 {
@@ -41,15 +37,9 @@ h2 {
 }
 
 img {
-  color: #facf5a;
+  color: #ffb703;
 
   box-shadow: 10px 10px currentColor;
-}
-
-.center {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
 }
 
 .star-center {

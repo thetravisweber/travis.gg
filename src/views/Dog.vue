@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <TravisBio />
+    <h2> Here is my dog </h2>
     <div class="center">
       <travis-socials />
     </div>
