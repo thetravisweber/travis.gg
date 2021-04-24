@@ -1,7 +1,7 @@
 <template>
   <div class="soc">
     <a :href="link">
-      <img :src="iconLink" height="50" />
+      <img class="social-icon" :src="iconLink" height="50" />
     </a>
   </div>
 </template>
@@ -16,7 +16,11 @@ export default {
 </script>
 
 <style scoped>
-/* Style all font awesome icons */
+
+.social-icon {
+  box-shadow: none;
+}
+
 .soc {
   padding: 20px;
   font-size: 30px;
@@ -24,7 +28,6 @@ export default {
   align-content: center;
 }
 
-/* Add a hover effect if you want */
 .soc:hover {
   opacity: 0.7;
 }
