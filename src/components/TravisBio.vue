@@ -15,7 +15,7 @@
       almost exclusively in web development. Feel Free to check out some of 
       <router-link to="/work">My Work</router-link>.
     </p>
-    <p> I have 4 friends, <router-link to="/dog">1 dog</router-link>, and 1 girlfriend. </p>
+    <p> My favotite football 🏈 team is the Miami Dolphins, and my favorite animal is also dolphins 🐬. I have 4 friends, <router-link to="/dog">1 dog</router-link>, and 1 girlfriend. </p>
   </div>
 </template>
 
