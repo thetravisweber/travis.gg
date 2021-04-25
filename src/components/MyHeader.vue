@@ -2,7 +2,8 @@
   <div id="nav">
     <router-link to="/">Profile</router-link> |
     <router-link to="/work">Work History</router-link> |
-    <router-link to="/skillz">Skills</router-link>
+    <router-link to="/skillz">Skills</router-link> |
+    <router-link to="/dog">Dog</router-link>
   </div>
 </template>
 
