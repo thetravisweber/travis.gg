@@ -4,6 +4,31 @@
 
     <div class="skills-container center">
 
+      <WorkTitle>Programming Skills</WorkTitle>
+      
+      <p> 
+        First and Foremost, I am a developer.
+      </p>
+      <p> 
+        I am skilled in all of the following:
+      </p>
+      <ul class="list-group">
+        <li class="list-group-item active">Database Architecture</li>
+        <li class="list-group-item">Object Oriented Programming</li>
+        <li class="list-group-item">PHP</li>
+        <li class="list-group-item">Node</li>
+        <li class="list-group-item">MySQL</li>
+        <li class="list-group-item">Java</li>
+      </ul>
+      <p>
+        I have weaknesses in the following, mostly from lack of experience:
+      </p>
+
+      <ul>
+        <li>Front-end programming</li>
+        <li>3D game development</li>
+        <li>Dev OPS/server management</li>
+      </ul>
 
     </div>
 
@@ -14,8 +39,13 @@
 
 <script>
 
+import WorkTitle from "@/components/WorkTitle.vue";
+
 export default {
   name: "Skills",
+  components: {
+    WorkTitle
+  },
 };
 </script>
 
