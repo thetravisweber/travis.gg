@@ -15,11 +15,22 @@
 }
 #nav a {
   font-weight: bold;
+  padding: 3px;
   color: var(--dark-primary);
 }
 
+#nav a.router-link-exact-active:hover {
+  transition: .4s;
+  background-color: var(--light-primary);
+  border: 2px solid var(--black);
+  border-radius: 10px 2px 10px 2px;
+}
+
 #nav a.router-link-exact-active {
-  border: 2px;
+  transition: .2s;
+  background-color: var(--light-secondary);
+  border: 2px solid var(--black);
+  border-radius: 2px 10px 2px 10px;
 }
 
 </style>

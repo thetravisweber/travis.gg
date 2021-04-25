@@ -67,6 +67,13 @@ a {
   color: var(--dark-primary);
 }
 
+a:hover {
+  transition: .4s;
+  background-color: var(--light-primary);
+  padding: 2px;
+  border: 1px solid var(--black);
+  border-radius: 2px 10px 2px 10px;
+}
 
 .center {
   margin: auto;

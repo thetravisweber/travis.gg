@@ -12,6 +12,10 @@
         development team grow to 7 strong. At first, then I was working as a full stack developer, but have been working as the lead
         back-end developer for the past year.
       </p>
+      <p>
+        I have learned a lot from this experience. Namely, that being a programming is a lot more than just writing code. Through 
+        working with others, I have improved my communication skills, technical confidence, and social skills.
+      </p>
     </div>
   </div>
 </template>
