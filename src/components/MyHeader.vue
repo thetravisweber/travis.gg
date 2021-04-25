@@ -15,11 +15,11 @@
 }
 #nav a {
   font-weight: bold;
-  color: var(--light-primary);
+  color: var(--dark-primary);
 }
 
 #nav a.router-link-exact-active {
-  color: var(--dark-primary);;
+  border: 2px;
 }
 
 </style>

@@ -63,22 +63,10 @@ img {
   box-shadow: 10px 10px currentColor;
 }
 
-#nav {
-  padding: 30px;
-}
-
 a {
   color: var(--dark-primary);
 }
 
-#nav a {
-  font-weight: bold;
-  color: var(--light-primary);
-}
-
-#nav a.router-link-exact-active {
-  color: var(--dark-primary);
-}
 
 .center {
   margin: auto;
