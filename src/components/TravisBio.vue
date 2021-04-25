@@ -3,7 +3,7 @@
 
   <div class="bio">
     <p>
-      I am 21 year old American 🇺🇸 Software Developer currently living in
+      I am a 21 year old American 🇺🇸 Software Developer currently living in
       Scottsdale, Arizona. 
     </p>
     <p>

@@ -34,8 +34,8 @@
       <WorkTitle>Communication Skills</WorkTitle>
 
       <p> 
-        I have spent a lot of time working with developers in other nations. As the only American developer in the 
-        start-up that I have been working for, much of my duty has been communicating and coordinating with developers
+        I have spent a lot of time working with developers in other nations. As an the only American developer in the 
+        start-up that I have been working for, much of my duty has been communicating and coordinating with developers 
         around the globe.
       </p>
 

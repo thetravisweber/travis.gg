@@ -9,7 +9,7 @@
       </p>
       <p>
         When I was first hired, I was the first in house developer. I have now been with the company long enough to watch the
-        development team grow to 7 strong. At first, then I was working as a full stack developer, but have been working as the lead
+        development team grow to 7 strong. At first, I was working as a full stack developer, but have been working as the lead
         back-end developer for the past year.
       </p>
       <p>
