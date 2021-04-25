@@ -19,6 +19,7 @@
         <li class="list-group-item">Node</li>
         <li class="list-group-item">MySQL</li>
         <li class="list-group-item">Java</li>
+        <li class="list-group-item">Dart/Flutter</li>
       </ul>
       <p>
         I have weaknesses in the following, mostly from lack of experience:
@@ -29,6 +30,13 @@
         <li>3D game development</li>
         <li>Dev OPS/server management</li>
       </ul>
+
+      <WorkTitle>Communication Skills</WorkTitle>
+
+      <p> 
+        I have spent a lot of time working with developers in other nations. As an the only American developer in the 
+        start-up that I have been working for, much of my duty has been communicating and coordinating with developers around the globe.
+      </p>
 
     </div>
 
@@ -59,10 +67,11 @@ export default {
   border-color: var(--light-secondary);
 }
 
-.skills-description {
+p, li {
   text-align: left;
   text-indent: 25px;
   color: var(--black);
+  list-style-type:square;
 }
 
 </style>
