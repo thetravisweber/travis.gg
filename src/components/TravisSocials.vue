@@ -12,6 +12,10 @@
       iconLink="https://img.icons8.com/ios-filled/50/000000/youtube.png"
       link="https://www.youtube.com/channel/UCJECUUnURjLq6QuetU5Mn1A"
     />
+    <social-link
+      iconLink="https://img.icons8.com/ios-glyphs/48/000000/github.png"
+      link="https://github.com/thetravisweber"
+    />
   </div>
 </template>
 
