@@ -19,6 +19,7 @@ export default {
 
 .social-icon {
   box-shadow: none;
+  background-color: none;
 }
 
 .soc {
@@ -26,6 +27,10 @@ export default {
   font-size: 30px;
   width: 33%;
   align-content: center;
+}
+
+a:hover {
+  border: none;
 }
 
 .soc:hover {
