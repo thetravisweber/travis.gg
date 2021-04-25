@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h2>My Work:</h2>
+    <h2>Work History</h2>
 
     <div class="work-container center">
 
