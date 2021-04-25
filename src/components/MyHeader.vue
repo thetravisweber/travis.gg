@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
     <router-link to="/">Profile</router-link> |
-    <router-link to="/work">My Work</router-link>
+    <router-link to="/work">Work History</router-link> |
+    <router-link to="/skillz">Skills</router-link>
   </div>
 </template>
 
