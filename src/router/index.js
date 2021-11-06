@@ -1,14 +1,20 @@
 import { createRouter, createWebHistory } from "vue-router";
+import Dog from "../views/Dog.vue";
+import MathStuffs from "../views/MathStuffs.vue";
 import Profile from "../views/Profile.vue";
 import Skills from "../views/Skills.vue";
 import Work from "../views/Work.vue";
-import Dog from "../views/Dog.vue";
 
 const routes = [
   {
     path: "/",
     name: "Profile",
     component: Profile,
+  },
+  {
+    path: "/math-stuffs",
+    name: "Math Stuffs",
+    component: MathStuffs,
   },
   {
     path: "/work",
@@ -22,7 +28,7 @@ const routes = [
   },
   {
     path: "/dog",
-    name: "Dork",
+    name: "Dog",
     component: Dog,
   },
 ];
