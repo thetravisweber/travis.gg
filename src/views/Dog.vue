@@ -1,10 +1,8 @@
 <template>
   <div class="dog">
-
     <h2>This is my dog, Maverick</h2>
 
     <MaverickBio />
-    
   </div>
 </template>
 

@@ -1,6 +1,5 @@
 <template>
   <div class="profile">
-
     <h2>Hello, I am Travis</h2>
 
     <TravisBio />

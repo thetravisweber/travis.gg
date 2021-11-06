@@ -3,13 +3,12 @@
     <router-link to="/">Profile</router-link> |
     <router-link to="/work">Work History</router-link> |
     <router-link to="/skillz">Skills</router-link> |
-    <router-link to="/dog">Dog</router-link>
+    <router-link to="/dog">Dog</router-link> |
+    <router-link to="/teaching">Click here James</router-link>
   </div>
 </template>
 
-
 <style>
-
 #nav {
   width: 100%;
   background-color: var(--secondary);
@@ -22,18 +21,16 @@
 }
 
 #nav a.router-link-exact-active:hover {
-  transition: .4s;
+  transition: 0.4s;
   background-color: var(--light-primary);
   border: 2px solid var(--black);
   border-radius: 10px 2px 10px 2px;
 }
 
 #nav a.router-link-exact-active {
-  transition: .2s;
+  transition: 0.2s;
   background-color: var(--light-secondary);
   border: 2px solid var(--black);
   border-radius: 2px 10px 2px 10px;
 }
-
 </style>
-
