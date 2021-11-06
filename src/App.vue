@@ -3,7 +3,6 @@
   <router-view />
 </template>
 
-
 <script>
 // @ is an alias to /src
 import MyHeader from "@/components/MyHeader.vue";
@@ -16,7 +15,6 @@ export default {
 </script>
 
 <style>
-
 /* 
 
 COLOR SCHEME
@@ -68,7 +66,7 @@ a {
 }
 
 a:hover {
-  transition: .4s;
+  transition: 0.4s;
   background-color: var(--light-primary);
   padding: 2px;
   border: 1px solid var(--black);
@@ -80,5 +78,4 @@ a:hover {
   width: 50%;
   padding: 10px;
 }
-
 </style>

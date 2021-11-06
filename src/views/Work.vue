@@ -3,7 +3,6 @@
     <h2>Work History</h2>
 
     <div class="work-container center">
-
       <PetistaWork />
 
       <ArtWork />
@@ -11,13 +10,9 @@
       <TreeTopWork />
 
       <OtherWork />
-
     </div>
-
-    
   </div>
 </template>
-
 
 <script>
 // @ is an alias to /src
@@ -38,7 +33,6 @@ export default {
 </script>
 
 <style>
-
 .work-container {
   width: 60%;
   min-height: 100%;
@@ -52,5 +46,4 @@ export default {
   text-indent: 25px;
   color: var(--black);
 }
-
 </style>
