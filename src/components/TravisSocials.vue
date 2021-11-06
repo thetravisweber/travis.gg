@@ -1,9 +1,9 @@
 <template>
   <div class="socials">
-    <social-link 
-      iconLink="https://img.icons8.com/material/48/000000/twitter--v1.png" 
-      link="https://twitter.com/travis_weber_" 
-      />
+    <social-link
+      iconLink="https://img.icons8.com/material/48/000000/twitter--v1.png"
+      link="https://twitter.com/travis_weber_"
+    />
     <social-link
       iconLink="https://img.icons8.com/ios-filled/48/000000/instagram-new.png"
       link="https://www.instagram.com/travis__weber/"

@@ -10,13 +10,12 @@
 export default {
   props: {
     link: String,
-    iconLink: String
+    iconLink: String,
   },
 };
 </script>
 
 <style scoped>
-
 .social-icon {
   box-shadow: none;
   background-color: none;

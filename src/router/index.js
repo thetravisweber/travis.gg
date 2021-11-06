@@ -13,17 +13,17 @@ const routes = [
   {
     path: "/work",
     name: "Work",
-    component: Work
+    component: Work,
   },
   {
     path: "/skillz",
     name: "Skillz",
-    component: Skills
+    component: Skills,
   },
   {
     path: "/dog",
     name: "Dork",
-    component: Dog
+    component: Dog,
   },
 ];
 
