@@ -20,13 +20,15 @@
       better if I had a better understanding high-level of Math, but few that
       required more programming skills. This was especially true in my Machine
       Learning Research. I am hoping that the new tools that my Mathematics
-      degree is giving me will help me better search for solutions to Machine
-      Learning problems that everyone is looking for.
+      degree is giving me will help me better search for the solutions to
+      Machine Learning problems that everyone is looking for.
     </p>
     <p>
       My favotite football 🏈 team is the Miami Dolphins, and my favorite animal
       is also dolphins 🐬. I have 4 friends,
-      <router-link to="/dog">a dog</router-link>, and a girlfriend.
+      <router-link to="/dog">a dog</router-link>, and a girlfriend. My favorite
+      hobbies are programming, mountain biking, snowboarding, and playing
+      guitar/ukelele.
     </p>
   </div>
 </template>
