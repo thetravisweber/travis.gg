@@ -4,6 +4,8 @@ import MathStuffs from "../views/MathStuffs.vue";
 import Profile from "../views/Profile.vue";
 import Skills from "../views/Skills.vue";
 import Work from "../views/Work.vue";
+// Math
+import PrimeFactors from "../views/Math/PrimeFactors.vue";
 
 const routes = [
   {
@@ -30,6 +32,14 @@ const routes = [
     path: "/dog",
     name: "Dog",
     component: Dog,
+  },
+
+  // Lower Level
+
+  {
+    path: "/prime-factors",
+    name: "Prime Factors",
+    component: PrimeFactors,
   },
 ];
 
