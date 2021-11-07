@@ -4,7 +4,7 @@
 
     <table id="prime-factor-table">
       <tr>
-        <th>number</th>
+        <th></th>
         <th v-for="(prime, i) in primes" :key="i">
           {{ prime }}
         </th>
@@ -15,7 +15,7 @@
       >
         <td>{{ factored_num + 2 }}</td>
         <td v-for="(num_of_factor, j) in factors" :key="j">
-          <p v-if="num_of_factor != 0">{{ num_of_factor }}</p>
+          {{ this.ifNotZero(num_of_factor) }}
         </td>
       </tr>
     </table>
@@ -65,6 +65,9 @@ export default {
       this.primes.push(num);
       return this.factor(num);
     },
+    ifNotZero: (num) => {
+      return num ? num : "";
+    }
   },
 };
 </script>
