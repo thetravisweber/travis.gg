@@ -30,12 +30,13 @@ export default {
   data: function () {
     return {
       primes: [2, 3],
+      max_number: 40
     };
   },
   computed: {
     factoredTableData: function () {
       let solution = [];
-      for (let i = 2; i <= 100; i++) {
+      for (let i = 2; i <= this.max_number; i++) {
         solution[i - 2] = this.factor(i);
       }
       return solution;
@@ -55,7 +56,6 @@ export default {
         let prime = this.primes[i];
         if (num % prime == 0) {
           num /= prime;
-          console.log(num, prime);
           solutions = this.factor(num);
           solutions[i] += 1;
           return solutions;
@@ -82,12 +82,15 @@ body {
 }
 
 #prime-factor-table {
-  color:blue;
-  font-size: 10%;
+  font-size: 25px;
+  font-family: "Georgia";
+  background-image: linear-gradient(60deg, #1153e2, #44f85c);
+  background-clip: text;
+  color: transparent;
 }
 
-p {
-  color: blue;
+td {
+  width: 32px;
 }
 
 </style>
