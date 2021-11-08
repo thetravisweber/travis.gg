@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="prime-factors">
     <h2>{{ primeFactors }}</h2>
 
     <table id="prime-factor-table">
@@ -15,7 +15,7 @@
       >
         <td>{{ factored_num + 2 }}</td>
         <td v-for="(num_of_factor, j) in factors" :key="j">
-          {{ this.ifNotZero(num_of_factor) }}
+          {{ num_of_factor }}
         </td>
       </tr>
     </table>
@@ -30,7 +30,7 @@ export default {
   data: function () {
     return {
       primes: [2, 3],
-      max_number: 40
+      max_number: 40,
     };
   },
   computed: {
@@ -67,17 +67,17 @@ export default {
     },
     ifNotZero: (num) => {
       return num ? num : "";
-    }
+    },
   },
 };
 </script>
 
-<style>
+<style scoped>
 #nav {
-  display:none;
+  display: none;
 }
 
-body {
+.prime-factors {
   background-color: black;
 }
 
@@ -92,5 +92,4 @@ body {
 td {
   width: 32px;
 }
-
 </style>
